@@ -2,20 +2,37 @@
 
 html {
     margin: 25px;
-    background-color: lightblue;
+    background-color: white;
     font-family: verdana;
     font-size: 20px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: white;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bolder; 
 }
 
 p {
-    margin-top: 10px;
+    margin-top: 0;
     margin-left: 15px;
-    background-color: lightblue;
+    background-color: white;
 }
+
+.navbar {
+    background-color: grey; /* Bulma's primary turquoise */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+.navbar a.navbar-item {
+    color: white;
+}
+.navbar a.navbar-item:hover {
+    background-color: lightgray;
+}
+
